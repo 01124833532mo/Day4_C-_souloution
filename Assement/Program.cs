@@ -67,6 +67,24 @@ namespace Assement
         //}
         #endregion
 
+        #region question 7
+        //static int factorial(int num)
+        //{
+        //    int res=1;
+        //    if (num == 0) return 0;
+        //    else if (num == 1) return 1;
+        //    else
+        //    {
+        //        for(int i=num; i >= 1; i--)
+        //        {
+        //            res = res * i;
+        //        }
+        //        return res;
+        //    }
+        //}
+        #endregion
+
+
         static void Main(string[] args)
         {
             #region 2-Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
@@ -152,6 +170,14 @@ namespace Assement
             //Console.WriteLine($"maximum element is {resmax} ");
 
             #endregion
+
+            #region 7-Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+
+            //Console.WriteLine("enter number ");
+            //int num = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"result of factoria is {factorial(num)}");
+            #endregion
+
         }
     }
 }
