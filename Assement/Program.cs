@@ -58,6 +58,15 @@ namespace Assement
         //    return true;
         //}
 
+        #region question 6
+        //static void MinMaxArray(ref int[] arr, out int min,out int max)
+        //{
+        //    Array.Sort(arr);
+        //    min = arr[0];
+        //    max = arr[arr.Length - 1];
+        //}
+        #endregion
+
         static void Main(string[] args)
         {
             #region 2-Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
@@ -133,6 +142,16 @@ namespace Assement
             //}
             #endregion
 
+            #region 6-Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameter
+            //int[] numbers = { 1, 5, 7, 34, 5, 6, 7 };
+            //int resmin;
+            //int resmax;
+            //MinMaxArray(ref numbers, out resmin, out resmax);
+
+            //Console.WriteLine($"minimum element is {resmin} ");
+            //Console.WriteLine($"maximum element is {resmax} ");
+
+            #endregion
         }
     }
 }
