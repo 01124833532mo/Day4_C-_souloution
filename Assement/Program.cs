@@ -4,29 +4,6 @@ namespace Assement
 {
     internal class Program
     {
-        #region question1 passing by value 
-        //static void swap( int x,  int y) //passing by value
-        //{
-        //    Console.WriteLine("swap");
-        //    int temp = x;
-        //    x = y;
-        //    y = temp;
-
-        //} 
-
-        #endregion
-
-        #region question1 passing by ref 
-        //static void swap(ref int x,ref  int y) //passing by ref
-        //{
-        //    Console.WriteLine("swap");
-        //    int temp = x;
-        //    x = y;
-        //    y = temp;
-
-        //} 
-        #endregion
-
         #region question 2 passing by value
         //static int sumarray(int[] arr)
         //{
@@ -43,20 +20,6 @@ namespace Assement
         //}
         #endregion
 
-        #region question 2 passing by ref
-        // static int sumarray(ref int[] arr)
-        //{
-        //    int sum = 0;
-        //    if (arr is not null)
-        //    {
-        //        arr = new int[] { 4, 5, 6 };
-        //        for (int i = 0; i < arr.Length; i++)
-        //            sum += arr[i];
-        //    }
-        //    return sum;
-
-        //}
-        #endregion
 
         #region question 3
         //public static void Calculate(double a, double b, double c, double d,out double sum,out double sub)
@@ -66,7 +29,6 @@ namespace Assement
         //}
 
         #endregion
-
         #region question 4
         //static int oddnumer(int number)
         //{
@@ -79,7 +41,6 @@ namespace Assement
         //    return sum;
         //}
         #endregion
-
         #region question 5
         // static bool IsPrime(int number)
         //{
@@ -96,7 +57,6 @@ namespace Assement
 
         //    return true;
         //}
-        #endregion
 
         #region question 6
         //static void MinMaxArray(ref int[] arr, out int min,out int max)
@@ -131,7 +91,7 @@ namespace Assement
         //    {
         //        char[] temp =name.ToCharArray();
 
-             
+
 
         //        temp[0] = 'm';
 
@@ -144,27 +104,6 @@ namespace Assement
 
         static void Main(string[] args)
         {
-
-            #region 1- Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
-            ////passing by value 
-            ////pass as value type parameters and is conseder a input parameter and in stack build frame dont refer to any stack frame
-            //int a = 5;int b = 7;
-            //swap(a, b);
-            //Console.WriteLine($"value of a {a}");
-            //Console.WriteLine($"value of b {b}");
-            //// can not swap because stack frame of function swap removed
-            ///
-            // passing by reference 
-            //can parameter acsses on basic parameters in stack to refer that and consider input-output parameters
-            //int a = 5;int b = 7;
-            //swap(ref a,ref b);
-            //Console.WriteLine($"value of a {a}");
-            //Console.WriteLine($"value of b {b}");
-            //// can swap 
-
-
-            #endregion
-
             #region 2-Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
             //passing by value
             //passing parameters can refer to references of of object or class and conseder input parameters and it same of passing by reference but diffrent behiviour
@@ -256,11 +195,12 @@ namespace Assement
             //Console.WriteLine($"result of factoria is {factorial(num)}");
             #endregion
 
+
             #region 8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
-         //   string name = "ahmed";
-         //   ChangeChar(ref name);
-         //Console.WriteLine($"the new name after change is {name}  ");
+            //   string name = "ahmed";
+            //   ChangeChar(ref name);
+            //Console.WriteLine($"the new name after change is {name}  ");
             #endregion
         }
     }
