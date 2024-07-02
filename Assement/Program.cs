@@ -41,7 +41,22 @@ namespace Assement
         //    return sum;
         //}
         #endregion
+        #region question 5
+        // static bool IsPrime(int number)
+        //{
+        //    if (number <= 1) return false;
+        //    if (number == 2) return true;
+        //    if (number % 2 == 0) return false; 
 
+        //    int boundary = (int)Math.Floor(Math.Sqrt(number));
+
+        //    for (int i = 3; i <= boundary; i += 2)
+        //    {
+        //        if (number % i == 0) return false;
+        //    }
+
+        //    return true;
+        //}
 
         static void Main(string[] args)
         {
@@ -100,6 +115,24 @@ namespace Assement
             //int res = oddnumer(num);
             //Console.WriteLine($" sum of digit is {res}");
             #endregion
+
+            #region 5- Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+
+            //Console.Write("Enter a number: ");
+            //int number = int.Parse((Console.ReadLine()));
+
+            //bool isPrime = IsPrime(number);
+
+            //if (isPrime)
+            //{
+            //    Console.WriteLine($"{number} is a prime number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{number} is not a prime number.");
+            //}
+            #endregion
+
         }
     }
 }
