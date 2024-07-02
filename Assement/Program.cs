@@ -5,14 +5,14 @@ namespace Assement
     internal class Program
     {
         #region question1 passing by value 
-        //static void swap( int x,  int y) //passing by value
-        //{
-        //    Console.WriteLine("swap");
-        //    int temp = x;
-        //    x = y;
-        //    y = temp;
+        static void swap(int x, int y) //passing by value
+        {
+            Console.WriteLine("swap");
+            int temp = x;
+            x = y;
+            y = temp;
 
-        //} 
+        }
 
         #endregion
 
@@ -131,7 +131,7 @@ namespace Assement
         //    {
         //        char[] temp =name.ToCharArray();
 
-             
+
 
         //        temp[0] = 'm';
 
@@ -146,18 +146,23 @@ namespace Assement
         {
 
             #region 1- Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
-            ////passing by value 
-            ////pass as value type parameters and is conseder a input parameter and in stack build frame dont refer to any stack frame
-            //int a = 5;int b = 7;
+            //passing by value
+            //pass as value type parameters and is conseder a input parameter and in stack build frame dont refer to any stack frame
+            //int a = 5; int b = 7;
             //swap(a, b);
             //Console.WriteLine($"value of a {a}");
             //Console.WriteLine($"value of b {b}");
-            //// can not swap because stack frame of function swap removed
-            ///
-            // passing by reference 
-            //can parameter acsses on basic parameters in stack to refer that and consider input-output parameters
-            //int a = 5;int b = 7;
-            //swap(ref a,ref b);
+
+
+
+
+            //can not swap because stack frame of function swap removed
+
+
+            // passing by reference
+            //can parameter acsses on basic parameters in stack to refer that and consider input - output parameters
+            //int a = 5; int b = 7;
+            //swap(ref a, ref b);
             //Console.WriteLine($"value of a {a}");
             //Console.WriteLine($"value of b {b}");
             //// can swap 
@@ -258,9 +263,9 @@ namespace Assement
 
             #region 8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
-         //   string name = "ahmed";
-         //   ChangeChar(ref name);
-         //Console.WriteLine($"the new name after change is {name}  ");
+            //   string name = "ahmed";
+            //   ChangeChar(ref name);
+            //Console.WriteLine($"the new name after change is {name}  ");
             #endregion
         }
     }
