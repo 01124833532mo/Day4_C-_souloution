@@ -84,6 +84,23 @@ namespace Assement
         //}
         #endregion
 
+        #region question 8
+        //static void ChangeChar(ref string name)
+        //{
+        //    if(name is not null)
+        //    {
+        //        char[] temp =name.ToCharArray();
+
+
+
+        //        temp[0] = 'm';
+
+        //        name = new string(temp);
+        //    }
+
+        //}
+
+        #endregion
 
         static void Main(string[] args)
         {
@@ -178,6 +195,13 @@ namespace Assement
             //Console.WriteLine($"result of factoria is {factorial(num)}");
             #endregion
 
+
+            #region 8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
+
+            //   string name = "ahmed";
+            //   ChangeChar(ref name);
+            //Console.WriteLine($"the new name after change is {name}  ");
+            #endregion
         }
     }
 }
