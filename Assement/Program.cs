@@ -29,6 +29,18 @@ namespace Assement
         //}
 
         #endregion
+        #region question 4
+        //static int oddnumer(int number)
+        //{
+        //    int sum = 0;
+        //    while(number != 0)
+        //    {
+        //        sum += number % 10;
+        //        number /= 10;
+        //    }
+        //    return sum;
+        //}
+        #endregion
 
 
         static void Main(string[] args)
@@ -82,6 +94,12 @@ namespace Assement
             //     Console.WriteLine($"Subtraction Result: {subtractResult}"); }
             #endregion
 
+            #region 4-Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number
+            //Console.WriteLine("please enter number");
+            //int num = int.Parse(Console.ReadLine());
+            //int res = oddnumer(num);
+            //Console.WriteLine($" sum of digit is {res}");
+            #endregion
         }
     }
 }
