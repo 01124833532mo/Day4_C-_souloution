@@ -4,8 +4,10 @@ namespace Assement
 {
     internal class Program
     {
-        #region question1 passing by value 
-        static void swap(int x, int y) //passing by value
+
+
+        #region question1 passing by ref 
+        static void swap(ref int x, ref int y) //passing by ref
         {
             Console.WriteLine("swap");
             int temp = x;
@@ -13,18 +15,6 @@ namespace Assement
             y = temp;
 
         }
-
-        #endregion
-
-        #region question1 passing by ref 
-        //static void swap(ref int x,ref  int y) //passing by ref
-        //{
-        //    Console.WriteLine("swap");
-        //    int temp = x;
-        //    x = y;
-        //    y = temp;
-
-        //} 
         #endregion
 
         #region question 2 passing by value
@@ -146,26 +136,16 @@ namespace Assement
         {
 
             #region 1- Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
-            //passing by value
-            //pass as value type parameters and is conseder a input parameter and in stack build frame dont refer to any stack frame
-            //int a = 5; int b = 7;
-            //swap(a, b);
-            //Console.WriteLine($"value of a {a}");
-            //Console.WriteLine($"value of b {b}");
 
 
 
-
-            //can not swap because stack frame of function swap removed
-
-
-            // passing by reference
-            //can parameter acsses on basic parameters in stack to refer that and consider input - output parameters
-            //int a = 5; int b = 7;
-            //swap(ref a, ref b);
-            //Console.WriteLine($"value of a {a}");
-            //Console.WriteLine($"value of b {b}");
-            //// can swap 
+           // passing by reference
+          // can parameter acsses on basic parameters in stack to refer that and consider input - output parameters
+            int a = 5; int b = 7;
+            swap(ref a, ref b);
+            Console.WriteLine($"value of a {a}");
+            Console.WriteLine($"value of b {b}");
+            // can swap 
 
 
             #endregion
